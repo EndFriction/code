@@ -1,3 +1,3 @@
 # code 
-* Documentation is pendiang 😅.
+* Documentation is pending 😅.
 * I'll update soon!

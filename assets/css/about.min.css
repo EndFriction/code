@@ -1,0 +1,128 @@
+.about-sec-heading {
+
+    font-weight: 500;
+    font-family: Roboto, system-ui;
+    color: #191c27;
+  }
+
+#meetTheTeam {
+    padding-bottom: 5rem;
+    background-color: #5ed19d;
+}
+
+#ourContributors{
+    padding-bottom: 5rem;
+}
+#endfrictionAbout {
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+#endfrictionAbout p {
+
+    text-align:justify;
+
+}
+
+.MTT-row {
+    display: flex;
+    /*justify-content:space-evenly;*/
+    /*align-items:center;*/
+    flex-direction:row;
+    flex-wrap: wrap;
+    border-radius:10px;
+    background-color: #fff;
+    z-index:55;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.08);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.08);
+    box-shadow:0 2px 4px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.08);
+}
+
+/*.MTT-card {*/
+/*    display: flex;*/
+/*    justify-content:centert;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.MTT-card-img img {
+    max-width: 125px;
+    border-radius: 50%;
+}
+
+.MTT-card-name {
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  font-family: Roboto, system-ui;
+  color: #5ed19d;
+  margin-bottom: 0;
+}
+
+
+.MTT-card-profileName {
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  font-family: Roboto, system-ui;
+  color: #535353;
+}
+
+
+.team-social {
+    text-decoration: none;
+    color:#5ed19d;
+}
+.team-social:hover {
+    text-decoration: underline;
+}
+.MTT-card-name:hover {
+    text-decoration: underline;
+}
+
+
+
+#contributorNameSocial {
+    text-align:center;
+    font-size:11px;
+    color: #191c27;
+
+}
+#contributorNameSocial:hover {
+    color: #5ed19d;
+
+}
+
+#contributorNameSocial {
+    text-decoration:none;
+
+}
+
+
+@media all and (max-width: 500px) { 
+    .MTT-card-profileName {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .MTT-card-img img {
+        max-width: 100px;
+        border-radius: 50%;
+    }
+
+    #contributorNameSocial {
+
+        font-size:10px;
+    
+    }
+
+    #endfrictionAbout {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+
+}
